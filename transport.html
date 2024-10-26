@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var transport=prompt("select a transport")
+        var category=prompt("choose a class ")
+        switch(transport){
+            case 'flight':
+                switch(category){
+                    case 'economy class':console.log(`In ${transport} you have choosen ${category}`);
+                    break;
+                    case 'business class':console.log(`In ${transport} you have choosen ${category}`);
+                    break;
+                    default:
+                        console.log("enter a valid category");
+                    break;
+                }
+                break;
+                case 'train':
+                switch(category){
+                    case 'sleeper':console.log(`In ${transport} you have choosen ${category}`);
+                    break;
+                    case 'AC':
+                        console.log(`In ${transport} you have choosen ${category}`);
+                    break;
+                    default:
+                        console.log("enter a valid category");
+                    break;
+                }
+                break;
+                case 'bus':
+                switch(category){
+                    case 'standard':console.log(`In ${transport} you have choosen ${category}`);
+                    break;
+                    case 'luxury':console.log(`In ${transport} you have choosen ${category}`);
+                    break;
+                    default:
+                        console.log("enter a valid category");
+                    break;
+                }
+                break;
+                
+        }
+    </script>
+</body>
+</html>

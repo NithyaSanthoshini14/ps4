@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var movie=prompt("choose a movie")
+        let seat_category=prompt("choose a seat")
+        switch(movie){
+            case "Action":
+                switch(seat_category){
+                    case 'standardseat':console.log("10rs");
+                    break;
+                    case 'vipseat':console.log("15rs");
+                    break;
+                    default:console.log("invalid seat category")
+                    break;
+                }
+                break;
+                case 'comedy':
+                    switch(seat_category){
+                    case 'standardseat':console.log("8rs");
+                    break;
+                    case 'vipseat':console.log("15rs");
+                    break;
+                    default:console.log("invalid seat category")
+                    break;
+
+                }
+                break;
+               case 'Drama':
+                    switch(seat_category){
+                    case 'standardseat':console.log("6rs");
+                    break;
+                    case 'vipseat':console.log("12rs");
+                    break;
+                    default:console.log("invalid seat category")
+                    break;
+                }
+                break;
+
+        }
+    </script>
+</body>
+</html>
